@@ -24,6 +24,7 @@ public class Average {
             sum = sum + nums[i];
             getAvg = sum / nums.length;
         }
+        System.out.println("passed test");
 
         return getAvg;
    
